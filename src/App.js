@@ -1,10 +1,8 @@
+import "react-native-gesture-handler";
+
 import React from "react";
-import { View, Text } from "react-native";
+import Screens from "./Screens";
 
 export default function App() {
-  return (
-    <View>
-      <Text>Hello World</Text>
-    </View>
-  );
+  return <Screens />;
 }
